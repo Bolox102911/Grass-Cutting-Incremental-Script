@@ -9,5 +9,3 @@ support server:
 ```
 https://discord.gg/DDvgerpcau
 ```
-
-
