@@ -9,3 +9,4 @@ support server:
 ```
 https://discord.gg/DDvgerpcau
 ```
+contributors: Alvinyuen123
