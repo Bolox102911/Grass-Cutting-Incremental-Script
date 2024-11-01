@@ -118,7 +118,6 @@ local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main
                         if object.Name == "g" then
                             local distance = (object.Position - currentPosition).Magnitude
                             if distance <= teleportRange then
-                                -- Calculate the time it takes to teleport
                                 humanoidRootPart.CFrame = object.CFrame
                                 didTeleport = true -- Mark that we have teleported
                                 wait(0) -- Yield briefly to let the teleportation occur
@@ -467,4 +466,3 @@ local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main
 
     -- Load the autoload configuration
     SaveManager:LoadAutoloadConfig()
-end
