@@ -1,4 +1,4 @@
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Bolox102911/ScripteS/refs/heads/main/Notification.lua"))()
 
 local games = {
     [9292879820] = "https://raw.githubusercontent.com/Bolox102911/ScripteS/refs/heads/main/scripts/GrassCutting.lua"
